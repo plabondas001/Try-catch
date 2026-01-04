@@ -14,3 +14,15 @@ try {
 finally {
   console.log(`My name is Plabon`);
 }
+
+
+// customize error
+const name = 'plabonn';
+
+if(name === 'plabon'){
+    console.log('yes');
+    
+}
+else{
+    throw 'Incorrect name'
+}
