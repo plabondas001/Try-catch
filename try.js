@@ -8,4 +8,7 @@ try {
 } catch (error) {
     // error
     console.error(error);
+    // kon type er error ei ta dekhar jonno
+    console.log(error.name);
+    
 }
